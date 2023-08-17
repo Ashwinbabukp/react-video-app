@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
@@ -6,12 +6,12 @@ function Landing() {
   const navigate = useNavigate();
   const handleNavigate = () => {
     navigate("/home");
-  };
+  }
   return (
     <Row className="align-items-center">
       <Col></Col>
       <Col lg={6}>
-        <h1>Welcome Video-app</h1>
+        <h1>Welcome To Video-app</h1>
         <p style={{ textAlign: "justify" }}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quas
           maxime omnis vero quo! Similique repellendus dolores nemo? Error

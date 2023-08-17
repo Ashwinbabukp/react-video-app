@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Videopage from './pages/Videopage';
 import Landing from './pages/Landing'
+import Watchhistory from './pages/Watchhistory';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Landing/>}/>
           <Route path='/home' element={<Videopage/>} />
+          <Route path='/watch-history' element={<Watchhistory/>} />
         </Routes>
       </div>
       <Footer/>
